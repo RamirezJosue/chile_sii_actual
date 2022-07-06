@@ -1,0 +1,24 @@
+{
+    "name": "ramir/chile_sii_actual",
+    "description": "Port of sii_chile gem",
+    "keywords": ["sii", "chile"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ramir\\ChileSiiActual\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RamirezJosue",
+            "email": "ramirezjry17@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
